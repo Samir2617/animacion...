@@ -1,0 +1,67 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    animation-name: colorBody;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+img{
+    width: 20%;
+    position: relative;
+    animation-name: animationDVd;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animationDVd {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 84vh;
+        left: 84vh;
+    }
+
+    50% {
+        top: 0;
+        left: 0;
+    }
+
+    75%{
+        top: 84vh;
+        left: 0;
+    }
+
+    100%{
+        top: 0;
+        left: 0;
+    }
+
+}
+
+@keyframes colorBody {
+    0% {
+        background-color: #88C6DB;
+    }
+
+    25% {
+        background-color: #A90203;
+    }
+
+    50% {
+        background-color: #4A000F;
+    }
+
+    75% {
+        background-color: #EEDB07;
+    }
+
+    100%{
+        background-color: #88c6db
+    }
+}
